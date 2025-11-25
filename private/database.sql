@@ -1,5 +1,6 @@
-CREATE DATABASE IF NOT EXISTS binome_shop2 CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-USE binome_shop2;
+Drop database if exists binome_shop;
+CREATE DATABASE IF NOT EXISTS binome_shop CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+USE binome_shop;
 
 CREATE TABLE IF NOT EXISTS categories (
   id INT AUTO_INCREMENT PRIMARY KEY,
