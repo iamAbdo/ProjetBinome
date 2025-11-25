@@ -1,9 +1,9 @@
-## Template e-commerce pour XAMP (Projet version Monome) 
+## Template e-commerce pour XAMP (Projet version Binome) 
 
 Exemple de site e-commerce pour les groupes monome avec deux portails séparés :
 
-- `client/` : vitrine publique (accueil, catalogue, à propos) avec formulaire de commande.
-- `admin/` : back-office (login, produits, catégories, commandes).
+- `client/` : vitrine publique (accueil, catalogue, à propos, panier, contact).
+- `admin/` : back-office (login, produits, catégories, commandes, contact).
 - `public/` : assets partagés (CSS, JS, images).
 - `private/` : assets partagés priver (configuration PHP, script SQL).
 
