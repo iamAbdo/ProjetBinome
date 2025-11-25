@@ -25,7 +25,7 @@ $pageTitle = $pageTitle ?? 'site (exemple)';
                 <a href="apropos.html">À propos</a>
                 <a href="cart.php" class="cart-link">Panier (<span data-cart-count>0</span>)</a>
             </div>
-            <a class="btn btn-primary" href="../admin/login.php">Admin (exemple)</a>
+            <a class="btn btn-primary" href="../admin/login.php">Admin</a>
         </nav>
     </header>
 
