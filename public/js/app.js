@@ -1,6 +1,4 @@
 document.addEventListener('DOMContentLoaded', () => {
-  const chips = document.querySelectorAll('[data-filter]');
-  const productCards = document.querySelectorAll('[data-category]');
   const addToCartButtons = document.querySelectorAll('[data-add-cart]');
   const cartCountEls = document.querySelectorAll('[data-cart-count]');
   const qtyInputs = document.querySelectorAll('[data-item-qty]');
@@ -57,22 +55,6 @@ document.addEventListener('DOMContentLoaded', () => {
       button.disabled = false;
     }, 1200);
   };
-
-  chips.forEach((chip) => {
-    chip.addEventListener('click', () => {
-      chips.forEach((el) => el.classList.remove('active'));
-      chip.classList.add('active');
-      const filter = chip.dataset.filter;
-
-      productCards.forEach((card) => {
-        if (filter === 'all' || card.dataset.category === filter) {
-          card.style.display = 'flex';
-        } else {
-          card.style.display = 'none';
-        }
-      });
-    });
-  });
 
   addToCartButtons.forEach((button) => {
     button.addEventListener('click', () => {
