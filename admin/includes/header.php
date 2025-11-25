@@ -21,6 +21,7 @@ $activePage = $activePage ?? '';
         <a href="products.php" class="<?= $activePage === 'products' ? 'active' : ''; ?>">Produits</a>
         <a href="categories.php" class="<?= $activePage === 'categories' ? 'active' : ''; ?>">Catégories</a>
         <a href="orders.php" class="<?= $activePage === 'orders' ? 'active' : ''; ?>">Commandes</a>
+        <a href="contact.php" class="<?= $activePage === 'contacts' ? 'active' : ''; ?>">Contacts</a>
         <a href="admins.php" class="<?= $activePage === 'admins' ? 'active' : ''; ?>">Administrateurs</a>
         <a href="logout.php" style="margin-top: auto;">Se déconnecter</a>
     </aside>
